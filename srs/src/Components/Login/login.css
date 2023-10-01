@@ -1,0 +1,60 @@
+:root {
+  --primarycolor: hsl(240, 64%, 27%);
+  --whiteColorDeam: hsl(0, 0%, 93%);
+  --blackColor: hsl(0, 0%, 18%);
+  --textColor: hsl(240, 1%, 48%);
+}
+
+.stu-list {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.stu-list h2 {
+  color: var(--primarycolor);
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 10px;
+}
+
+table,
+th,
+td {
+  border: none;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+  color: var(--primarycolor);
+}
+
+.btn-log {
+  background-color: var(--primarycolor);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  margin-right: 10px;
+  display: inline;
+}
+
+.btn-log:hover {
+  background-color: var(--textColor);
+}
+
+.btn-log a {
+  color: var(--whiteColorDeam);
+  text-decoration: none;
+}/*# sourceMappingURL=login.css.map */

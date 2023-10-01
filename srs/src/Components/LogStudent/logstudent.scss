@@ -1,0 +1,76 @@
+:root {
+    --primarycolor: hsl(240, 64%, 27%);
+    --whiteColorDeam: hsl(0, 0%, 93%);
+    --blackColor: hsl(0, 0%, 18%);
+    --textColor: hsl(240, 1%, 48%);
+}
+.log{
+    padding: 10rem;
+}
+.box-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: var(--whiteColorDeam);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.log-stu {
+    text-align: center;
+   
+}
+
+.log-stu h1 {
+    color: var(--primarycolor);
+}
+
+.loginDiv {
+    margin-bottom: 2rem;
+}
+
+.loginDiv label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.loginDiv input {
+    width: 200px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn-stu {
+    margin-top: 10px;
+    background-color: var(--primarycolor);
+    color: var(--whiteColorDeam);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 10px;
+    
+}
+
+.btn-container {
+   text-align: center;
+    margin-top: 10px;
+}
+
+.btn-stu:hover {
+    background-color: var(--textColor);
+}
+
+
+.btn-stu:nth-child(3) {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}

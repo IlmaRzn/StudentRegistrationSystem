@@ -1,0 +1,83 @@
+body{
+    background: whitesmoke;
+  
+}
+:root{
+    --primarycolor:hsl(240,64%,27%);
+    --whiteColorDeam: hsl(0, 0%, 93%);
+    --blackColor: hsl(0, 0%, 18%);
+    --textColor: hsl(240, 1%, 48%);
+}
+li {
+    list-style: none;
+}
+.section {
+    padding: 4rem 0 2rem;
+}
+
+.container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+
+
+.flex {
+    display: flex;
+    align-items: center;
+    border: none;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
+}
+
+.btn {
+    padding: .4rem 1.5rem;
+    background: var(--PrimaryColor);
+    border: none;
+    outline: none;
+    border-radius: 3rem;
+    cursor: pointer;
+}
+
+.btn a {
+    color: var(--whiteColor);
+    font-weight: 500;
+}
+
+.btn:hover a {
+    color: var(--whiteColor)
+}
+
+.secIntro {
+    max-width: 70%;
+    text-align: center;
+    margin: 0 auto 2rem;
+}
+
+.secIntro .secTitle {
+    color: var(--blackColor);
+    line-height: 1.5rem;
+    padding-bottom: .5rem;
+}
+
+.secIntro p {
+    font-size: 13px;
+    color: var(--textColor);
+    font-weight: 500;
+}
+
+img,
+video {
+    width: 100%;
+    height: auto;
+}
+
+input {
+    font-size: 100%;
+}

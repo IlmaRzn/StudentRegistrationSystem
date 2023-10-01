@@ -1,0 +1,46 @@
+:root {
+    --primarycolor: hsl(240, 64%, 27%);
+    --whiteColorDeam: hsl(0, 0%, 93%);
+    --blackColor: hsl(0, 0%, 18%);
+    --textColor: hsl(240, 1%, 48%);
+}
+.proform{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: var(--whiteColorDeam) ;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+}
+.proform h1{
+    color: var(--primarycolor);
+    text-align: center;
+}
+.formingDiv{
+    margin-bottom: 10px;
+}
+.formingDiv label{
+    display: block;
+    margin-bottom: 5px;
+}
+.formingDiv input{
+    width: calc(100% - 12px);
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.formingDiv input[type="file"]{
+    width: 100%;
+}
+.btn-sub{
+    background-color: var(--primarycolor);
+    color: var(--whiteColorDeam);
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+}
